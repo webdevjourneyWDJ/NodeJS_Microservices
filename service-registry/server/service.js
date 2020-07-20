@@ -25,12 +25,21 @@ module.exports = (config) => {
     return res.json({result: serviceKey})
   })
 
-  service.delete('/register/:servicename/:serviceversion/:serviceport', (req, res, next) => {
-    return next('Not Implemented');
+  service.delete('/unregister/:servicename/:serviceversion/:serviceport', (req, res) => {
+    const {servicename, serviceversion, serviceport} = req.params;
+
+    const serviceip = req.connection.remoteAddress.includes('::') ? `[${req.connection.remoteAddress}]` : req.connection.remoteAddress;
+
+    const serviceKey = serviceRegisrty.unregister(servicename, serviceversion, serviceip, serviceport);
+
+    return res.json({result: `Deleted ${serviceKey}`})
   })
 
-  service.get('/register/:servicename/:serviceversion', (req, res, next) => {
-    return next('Not Implemented');
+  service.get('/find/:servicename/:serviceversion', (req, res) => {
+    const {servicename, serviceversion} = req.params;
+    const svc = serviceRegisrty.get(servicename, serviceversion);
+    if(!svc) return res.status(404).json({result: "Service not found"});
+    return res.json(svc);
   })
 
   // eslint-disable-next-line no-unused-vars
