@@ -1,0 +1,24 @@
+{
+  "name": "speakers-service",
+  "version": "1.0.0",
+  "description": "A service to manage speakers",
+  "scripts": {
+    "start": "nodemon bin/run | bunyan"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bunyan": "^1.8.12",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "nodemon": "^2.0.4"
+  }
+}
