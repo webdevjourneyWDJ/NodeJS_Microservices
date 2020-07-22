@@ -11,7 +11,7 @@ const app = express();
 
 const config = configs[app.get('env')];
 
-const speakers = new Speakers(config.data.speakers);
+const speakers = new Speakers(config);
 const feedback = new Feedback(config.data.feedback);
 
 app.set('view engine', 'pug');
