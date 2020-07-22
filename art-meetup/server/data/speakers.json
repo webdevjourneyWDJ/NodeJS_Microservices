@@ -1,0 +1,45 @@
+{
+  "speakers": [
+    {
+      "title": "Art in Full Bloom",
+      "name": "WDJ",
+      "shortname": "wdj",
+      "summary": "Bacon ipsum dolor amet buffalo burgdoggen ribeye turkey kevin salami ground round pastrami pork belly filet mignon strip steak venison. Salami pastrami tenderloin pig cupim strip steak landjaeger frankfurter tongue. Meatball hamburger pig picanha landjaeger,",
+      "description": "<p>Doner shank sausage fatback drumstick. Ham hock chuck landjaeger pork loin, cupim bresaola capicola flank t-bone brisket pig. Turducken shankle ham hock tail chuck sausage pork buffalo tenderloin rump ham andouille tongue beef ribs. Brisket tri-tip sirloin meatball turkey shoulder pancetta. Drumstick bacon sirloin pig ground round jerky fatback kielbasa boudin buffalo biltong. T-bone tri-tip ball tip ham, pancetta jowl short loin porchetta tenderloin shankle pastrami.</p>",
+      "artwork": [
+        "wdj_01_tn.jpg",
+        "wdj_02_tn.jpg",
+        "wdj_03_tn.jpg",
+        "wdj_04_tn.jpg"
+      ]
+    },
+    {
+      "title": "Deep Sea Wonders",
+      "name": "Santa Clause",
+      "shortname": "santa_clause",
+      "summary": "Bacon ipsum dolor amet buffalo burgdoggen ribeye turkey kevin salami ground round pastrami pork belly filet mignon strip steak venison. Salami pastrami tenderloin pig cupim strip steak landjaeger frankfurter tongue. Meatball hamburger pig picanha landjaeger,",
+      "description": "<p>Doner shank sausage fatback drumstick. Ham hock chuck landjaeger pork loin, cupim bresaola capicola flank t-bone brisket pig. Turducken shankle ham hock tail chuck sausage pork buffalo tenderloin rump ham andouille tongue beef ribs. Brisket tri-tip sirloin meatball turkey shoulder pancetta. Drumstick bacon sirloin pig ground round jerky fatback kielbasa boudin buffalo biltong. T-bone tri-tip ball tip ham, pancetta jowl short loin porchetta tenderloin shankle pastrami.</p>",
+      "artwork": [
+        "santa_clause_01_tn.jpg",
+        "santa_clause_02_tn.jpg",
+        "santa_clause_03_tn.jpg",
+        "santa_clause_04_tn.jpg"
+      ]
+    },
+    {
+      "title": "The Art of Abstract",
+      "name": "Willy Wonka",
+      "shortname": "wonka",
+      "summary": "Bacon ipsum dolor amet buffalo burgdoggen ribeye turkey kevin salami ground round pastrami pork belly filet mignon strip steak venison. Salami pastrami tenderloin pig cupim strip steak landjaeger frankfurter tongue. Meatball hamburger pig picanha landjaeger,",
+      "description": "<p>Doner shank sausage fatback drumstick. Ham hock chuck landjaeger pork loin, cupim bresaola capicola flank t-bone brisket pig. Turducken shankle ham hock tail chuck sausage pork buffalo tenderloin rump ham andouille tongue beef ribs. Brisket tri-tip sirloin meatball turkey shoulder pancetta. Drumstick bacon sirloin pig ground round jerky fatback kielbasa boudin buffalo biltong. T-bone tri-tip ball tip ham, pancetta jowl short loin porchetta tenderloin shankle pastrami.</p>",
+      "artwork": [
+        "wonka_01_tn.jpg",
+        "wonka_02_tn.jpg",
+        "wonka_03_tn.jpg",
+        "wonka_04_tn.jpg",
+        "wonka_05_tn.jpg",
+        "wonka_06_tn.jpg"
+      ]
+    }
+  ]
+}

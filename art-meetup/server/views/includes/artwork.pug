@@ -1,0 +1,7 @@
+if artwork && artwork.length
+  h1.sidebar-title Artwork on display
+  p.sidebar-body
+    | While you attend the conference, head over to our gallery where you can check   out some of   the work from our speakers.
+  .pixgrid.clearfix
+    each thumb, index in artwork
+      img(src=`/images/artwork/${thumb}`, alt=`Artwork ${index}`)

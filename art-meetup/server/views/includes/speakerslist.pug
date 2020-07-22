@@ -1,0 +1,12 @@
+article.speakerslist.jumbotron.hidden-xs
+  .container
+    .row
+      each speaker in speakerslist
+        .col-sm-4.text-center
+          h3.speakerslist-title=speaker.title
+          h5.speakerslist-name
+            | with &nbsp;
+            a(href=`/speakers/${speaker.shortname}`)=speaker.name
+          p.speakerslist-info
+            a(href=`/speakers/${speaker.shortname}`)
+              img.speakerslist-img.img-circle(src=`/images/speakers/${speaker.shortname}_tn.jpg`, alt=`Photo of ${speaker.name}`)
