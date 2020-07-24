@@ -19,7 +19,7 @@ module.exports = (config) => {
 
   service.get('/list', async (req, res, next) => {
     try{
-      // return res.json(await speakers.getList());
+      return res.json(await speakers.getList());
     }catch(err){
       return next(err);
     }
