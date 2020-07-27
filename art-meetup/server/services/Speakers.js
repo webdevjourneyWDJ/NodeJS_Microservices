@@ -10,8 +10,8 @@ const CircuitBreaker = require('../lib/CircuitBreaker');
 const circuitBreaker = new CircuitBreaker();
 
 class SpeakersService {
-  constructor({serviceRegisrtyUrl, serviceVersion}) {
-    this.serviceRegisrtyUrl = serviceRegisrtyUrl;
+  constructor({serviceRegistryUrl, serviceVersion}) {
+    this.serviceRegistryUrl = serviceRegistryUrl;
     this.serviceVersion = serviceVersion;
     this.cache = {};
   }
@@ -74,7 +74,7 @@ class SpeakersService {
   }
 
   async getService(serviceName){
-    const res = await axios.get(`${this.serviceRegisrtyUrl}/find/${serviceName}/${this.serviceVersion}`);
+    const res = await axios.get(`${this.serviceRegistryUrl}/find/${serviceName}/${this.serviceVersion}`);
     return res.data;
   }
 

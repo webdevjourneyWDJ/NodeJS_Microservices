@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "amqplib": "^0.6.0",
     "axios": "^0.19.2",
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
