@@ -14,7 +14,7 @@
     "amqplib": "^0.6.0",
     "axios": "^0.19.2",
     "body-parser": "^1.18.3",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "http-errors": "^1.7.0",
     "nodemon": "^2.0.4",
     "pug": "^2.0.3"
