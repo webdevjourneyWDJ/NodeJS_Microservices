@@ -11,7 +11,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "bunyan": "^1.8.12",
-    "express": "^4.16.4"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "chai": "^4.2.0",
